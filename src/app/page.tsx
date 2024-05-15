@@ -1,10 +1,14 @@
 import Image from "next/image";
+//import styles from "./page.module.css";
+import "./app/my-styles/my-styles.sass";
 import styles from "./page.module.css";
+
+
 
 export default function Home() {
   return (
-    <main className={styles.main}>
-      <div className={styles.description}>
+    <main className="title">
+      <div className="description">
         <p>
           Get started by editing&nbsp;
           <code className={styles.code}>src/app/page.tsx</code>
